@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "speech2text-experiments"
+version = "0.1.0"
+description = ""
+authors = ["Kirill Chirkunov <kirill.chirkunov@gmail.com>"]
+package-mode = false
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">3.9,<3.13"
+yt-dlp = "^2024.11.18"
+deepgram-sdk = "^3.7.1"
+ffmpeg-python = "^0.2.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
